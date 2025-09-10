@@ -44,7 +44,7 @@
         background: linear-gradient(120deg, #fefcea 0%, #f1da36 100%);
         color: #2a3d45;
       }
-      /* Ukrasni cvetići u pozadini leve strane */
+      
       .left::before {
         content: "❀ ❁ ✿ ✾ ✽";
         position: absolute;
@@ -108,7 +108,7 @@
         flex-direction: column;
       }
 
-      /* Sunce kao žuti krug sa zracima */
+      
       .sun {
         position: relative;
         width: 220px;
@@ -119,7 +119,7 @@
         animation: sunMove 5s ease-in-out infinite;
         margin-bottom: 40px;
       }
-      /* Zraci sunca */
+      
       .sun::before,
       .sun::after {
         content: "";
@@ -141,7 +141,7 @@
         filter: blur(15px);
       }
 
-      /* Dugina luka */
+      
       .rainbow {
         width: 260px;
         height: 130px;
@@ -160,7 +160,6 @@
         animation: rainbowStretch 6s ease-in-out infinite alternate;
       }
 
-      /* Animacija sunca gore-dole */
       @keyframes sunMove {
         0%,
         100% {
